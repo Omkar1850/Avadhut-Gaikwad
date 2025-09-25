@@ -173,4 +173,45 @@ body {
 
 .logo-image:hover {
     opacity: 1;
+
+}
+/* =========================
+   Responsive Styles (Mobile)
+   ========================= */
+@media (max-width: 600px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-text-and-button {
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-image-container {
+        min-height: auto;
+        justify-content: center;
+    }
+
+    .hero-image {
+        position: static;
+        max-width: 80%;
+    }
+
+    .logo-bar {
+        flex-wrap: wrap;
+        gap: 15px;
+        transform: none;
+        margin-top: 20px;
+    }
 }
