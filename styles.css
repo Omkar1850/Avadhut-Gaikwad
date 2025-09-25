@@ -156,6 +156,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 25px 5%;
+    gap: 15px;
     background-color: var(--background-white);
     border-radius: 50px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -215,3 +216,4 @@ body {
         margin-top: 20px;
     }
 }
+
