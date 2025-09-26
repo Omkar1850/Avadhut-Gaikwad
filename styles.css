@@ -192,7 +192,7 @@ body {
 @media (max-width: 600px) {
 
     .hero {
-    min-height: 150vh;
+    min-height: 155vh;
      /* Offset for fixed header */
     }
 
@@ -259,5 +259,6 @@ body {
     text-align: center;
   }
 }
+
 
 
